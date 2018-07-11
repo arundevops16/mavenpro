@@ -62,4 +62,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+       <snapshotRepository>
+           <id>deployment</id>
+           <name>Internal Snapshot Releases</name>
+           <url>http://localhost:8081/repository/sample-snapshot/</url>
+       </snapshotRepository>
+  </distributionManagement>
 </project>
