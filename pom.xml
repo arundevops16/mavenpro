@@ -66,7 +66,7 @@
        <snapshotRepository>
            <id>deployment</id>
            <name>Internal Snapshot Releases</name>
-           <url>http://localhost:8081/repository/sample-snapshot/</url>
+           <url>http://192.168.0.94:8081/repository/sample-snapshot/</url>
        </snapshotRepository>
   </distributionManagement>
 </project>
